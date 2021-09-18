@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Survey Form</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="surveyformstyling.css">
+</head>
+
+<body>
+    <section
+        <form action= "#actionpage">
+            <fieldset background: #ccc;>
+                <legend style="font-size: 20px; font-weight: bold;">Personal Information: </legend>
+                <label for= "fname">First Name:</label><br><br>
+                <input type= "text" id= "fname" name= "fname" placeholder= "John"><br><br>
+                <label for= "lname">Last Name:</label><br><br>
+                <input type= "text" id= "lname" name= "lname" placeholder= "Doe"><br><br>
+                <label for= "phone">Tel.:</label><br><br>
+                <input type= "text" id= "phone" name= "phone" placeholder= "+234"><br><br>
+                <label for= "age">Age:</label><br><br>
+                <input type= "number" id= "age" name= "age"><br><br>
+                <label for= "gender">Gender:</label><br><br>
+                <input type= "radio" id= "male" name= "gender" value= "Male">
+                <label for= "male">Male</label>
+                <input type= "radio" id= "female" name= "gender" value= "Female">
+                <label for= "female">Female</label><br><br>
+                <label for="job">Occupation: </label>
+                <select id="job" name="occupation">
+                    <option value="doctor">Doctor</option>
+                    <option value="lawyer">Lawyer</option>
+                    <option value="engineer">Engineer</option>
+                    <option value="artiste">Artiste</option>
+                </select>
+                <br><br>
+                <input type= "submit" style="background-color: black; font-weight: bold; color: white;">
+            </fieldset>
+        </form>    
+    </section>
+</body>
+
+
+</html>
